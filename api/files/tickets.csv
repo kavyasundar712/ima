@@ -1,0 +1,46 @@
+id,description,solution
+INC-001,Server patch failed due to insufficient disk space.,Clear temp files and retry patch installation.
+INC-002,Patch caused service downtime for web server.,Restart service and verify application health.
+INC-003,Patch not applied due to missing dependencies.,Install required dependencies and re-run patch.
+INC-004,Patch rollback triggered automatically.,Investigate logs, fix issue, reapply patch.
+INC-005,Server reboot loop after patch.,Boot in safe mode, uninstall faulty patch, reapply stable version.
+INC-006,Patch caused CPU spike.,Optimize configuration and monitor resource usage.
+INC-007,Patch failed due to network timeout.,Retry with stable network connection.
+INC-008,Patch corrupted system files.,Restore from backup and reapply patch.
+INC-009,Patch installer crashed mid-process.,Update installer tool and retry.
+INC-010,Patch caused database connection issues.,Restart DB service and update drivers.
+INC-011,Patch not compatible with OS version.,Upgrade OS before applying patch.
+INC-012,Patch caused SSL certificate errors.,Renew certificates and reconfigure SSL.
+INC-013,Patch failed due to locked files.,Unlock files and retry installation.
+INC-014,Patch caused memory leak in service.,Apply hotfix and restart service.
+INC-015,Patch not applied on clustered nodes.,Sync nodes and reapply patch.
+INC-016,Patch caused slow boot times.,Optimize startup services.
+INC-017,Patch installer missing permissions.,Run installer with admin privileges.
+INC-018,Patch caused firewall misconfiguration.,Restore firewall rules and reapply patch.
+INC-019,Patch failed due to antivirus interference.,Disable antivirus temporarily during patching.
+INC-020,Patch caused application crash.,Update application to compatible version.
+INC-021,Patch failed due to corrupted download.,Re-download patch from official source.
+INC-022,Patch caused DNS resolution issues.,Flush DNS cache and restart network service.
+INC-023,Patch not applied on backup server.,Schedule patch for backup server.
+INC-024,Patch caused log rotation failure.,Fix log rotation script and reapply patch.
+INC-025,Patch failed due to outdated patch tool.,Update patch tool and retry.
+INC-026,Patch caused NTP sync failure.,Reconfigure NTP settings.
+INC-027,Patch failed due to missing registry keys.,Restore registry keys and retry.
+INC-028,Patch caused load balancer misrouting.,Reconfigure load balancer settings.
+INC-029,Patch failed due to insufficient RAM.,Increase RAM allocation and retry.
+INC-030,Patch caused backup job failure.,Reschedule backup and reapply patch.
+INC-031,Patch failed due to conflicting updates.,Remove conflicting updates and retry.
+INC-032,Patch caused SMTP service failure.,Restart SMTP service and reconfigure.
+INC-033,Patch failed due to incorrect patch order.,Apply patches in correct sequence.
+INC-034,Patch caused API authentication errors.,Update API keys and reconfigure.
+INC-035,Patch failed due to proxy misconfiguration.,Fix proxy settings and retry.
+INC-036,Patch caused kernel panic.,Rollback kernel and apply stable patch.
+INC-037,Patch failed due to missing backup.,Create backup and retry patch.
+INC-038,Patch caused session timeout issues.,Adjust session settings and reapply patch.
+INC-039,Patch failed due to disk I/O errors.,Run disk check and retry.
+INC-040,Patch caused cron job failures.,Fix cron scripts and reapply patch.
+INC-041,Patch failed due to wrong patch file.,Verify checksum and retry.
+INC-042,Patch caused LDAP authentication failure.,Reconfigure LDAP settings.
+INC-043,Patch failed due to insufficient privileges.,Grant required permissions and retry.
+INC-044,Patch caused container restart loops.,Update container images and reapply patch.
+INC-045,Patch failed due,

@@ -1,0 +1,40 @@
+FAQ ID,Question,Answer
+FAQ-001,What is server patching?,Server patching is the process of applying updates to fix bugs, improve security, and enhance performance.
+FAQ-002,Why is patching important?,It protects servers from vulnerabilities and ensures compatibility with new software.
+FAQ-003,How often should servers be patched?,Typically monthly, but critical patches should be applied immediately.
+FAQ-004,Can patching cause downtime?,Yes, some patches require reboots or service restarts.
+FAQ-005,How do I check if a patch was applied?,Use system logs or patch management tools to verify installation.
+FAQ-006,What happens if a patch fails?,Investigate logs, fix the issue, and retry installation.
+FAQ-007,Should I back up before patching?,Always create a backup to prevent data loss.
+FAQ-008,Can patches be rolled back?,Yes, if rollback options are available or backups exist.
+FAQ-009,How do I schedule patching?,Use patch management software or cron jobs for automation.
+FAQ-010,What is a hotfix?,A hotfix is a quick patch to address urgent issues.
+FAQ-011,Are patches tested before release?,Vendors usually test patches, but internal testing is recommended.
+FAQ-012,Can patching affect applications?,Yes, some patches may change dependencies or configurations.
+FAQ-013,How do I avoid patch conflicts?,Apply patches in the correct sequence and check compatibility.
+FAQ-014,What tools can automate patching?,Tools like WSUS, SCCM, or Ansible can automate patch deployment.
+FAQ-015,How do I handle patching for clustered servers?,Patch nodes sequentially to avoid downtime.
+FAQ-016,Can patching fix performance issues?,Yes, some patches optimize system performance.
+FAQ-017,What is zero-day patching?,Applying a patch immediately after a vulnerability is discovered.
+FAQ-018,How do I verify patch integrity?,Check digital signatures and file checksums.
+FAQ-019,Can patching be done remotely?,Yes, using remote management tools.
+FAQ-020,What is patch compliance?,Ensuring all systems meet required patch levels.
+FAQ-021,How do I handle patching for virtual machines?,Patch the VM OS and underlying hypervisor separately.
+FAQ-022,Can patching cause security issues?,Rarely, but improper patching can introduce vulnerabilities.
+FAQ-023,How do I prioritize patches?,Apply critical security patches first, then functional updates.
+FAQ-024,What is patch drift?,When systems fall behind on patch levels over time.
+FAQ-025,How do I patch without downtime?,Use rolling updates or live migration techniques.
+FAQ-026,Can patching fail due to antivirus?,Yes, disable antivirus temporarily during patching.
+FAQ-027,How do I handle patching for legacy systems?,Use vendor-supported patches or custom fixes.
+FAQ-028,What is patch baseline?,A defined set of patches that all systems must have.
+FAQ-029,Can patching be skipped?,Only if risk assessment shows minimal impact, but not recommended.
+FAQ-030,How do I track patch history?,Maintain logs or use patch management dashboards.
+FAQ-031,What is patch supersedence?,When a new patch replaces older ones.
+FAQ-032,Can patching affect network settings?,Yes, some patches modify network configurations.
+FAQ-033,How do I handle patching for cloud servers?,Use cloud provider tools or automation scripts.
+FAQ-034,What is patch staging?,Testing patches in a non-production environment before rollout.
+FAQ-035,Can patching cause kernel changes?,Yes, OS-level patches may update the kernel.
+FAQ-036,How do I handle patching for containers?,Update container images and rebuild deployments.
+FAQ-037,What is patch rollback testing?,Ensuring rollback works before applying patches.
+FAQ-038,Can patching affect user sessions?,Yes, patches requiring reboots may disconnect users.
+FAQ-039,How do I handle patching for remote offices?,Use
